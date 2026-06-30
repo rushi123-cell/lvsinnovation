@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631542884202",
+    "project_id": "lvsinnovation",
+    "storage_bucket": "lvsinnovation.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631542884202:android:4f708804052343c5742713",
+        "android_client_info": {
+          "package_name": "com.lvsinnovation.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0H4z4d9RwxTgR6r6HaAF_yUvPR9oRZJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
