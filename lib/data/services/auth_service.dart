@@ -33,8 +33,13 @@ class AuthService {
   }
 
   Future<void> signOut() async {
-    await _googleSignIn.signOut();
-    await _auth.signOut();
+    try {
+      await _googleSignIn.signOut();
+      await _auth.signOut();
+    } catch (e) {
+      print('Error during Sign Out: $e');
+      throw Exception('Failed to sign out: $e');
+    }
   }
   
   Stream<User?> get authStateChanges => _auth.authStateChanges();

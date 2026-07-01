@@ -5,11 +5,26 @@ class HomeViewModel extends ChangeNotifier {
   bool _isLoading = false;
   List<StreamerModel> _streamers = [];
   
+  String _selectedTab = 'Stream';
+  String _selectedCategory = '🌐 Global';
+  
   bool get isLoading => _isLoading;
   List<StreamerModel> get streamers => _streamers;
+  String get selectedTab => _selectedTab;
+  String get selectedCategory => _selectedCategory;
 
   HomeViewModel() {
     fetchStreamers();
+  }
+
+  void setTab(String tab) {
+    _selectedTab = tab;
+    notifyListeners();
+  }
+
+  void setCategory(String category) {
+    _selectedCategory = category;
+    notifyListeners();
   }
 
   Future<void> fetchStreamers() async {

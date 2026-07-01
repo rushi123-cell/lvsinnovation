@@ -10,6 +10,13 @@ class AppColors {
   static const Color googleBlue = Color(0xFF4285F4);
   static const Color facebookBlue = Color(0xFF1877F2); // Not used per requirements, but good for reference
   
+  // Gradients
+  static const Color gradientStart = Color(0xFF86E129); // Same as secondary
+  static const Color gradientEnd = Color(0xFF32A600);
+  
+  static const Color waveGradientStart = Color(0xFF2E9601);
+  static const Color waveGradientEnd = Color(0xFFC7EF00);
+  
   static const Gradient primaryGradient = LinearGradient(
     colors: [primary, secondary],
     begin: Alignment.centerLeft,

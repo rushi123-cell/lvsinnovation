@@ -12,7 +12,28 @@
           "package_name": "com.lvsinnovation.android"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "631542884202-7csa4973q44ftrkl02kvbj95gcph75m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lvsinnovation.android",
+            "certificate_hash": "eece9a399480098a0044299818a9c2411b0ec75d"
+          }
+        },
+        {
+          "client_id": "631542884202-9esg85if0skr0bpfr7dsha75f05bo3q1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lvsinnovation.android",
+            "certificate_hash": "3757b1e2dda57029c95fc42941cfd30a46ab8ab0"
+          }
+        },
+        {
+          "client_id": "631542884202-3fsk7f7bh9nv7e35sp138109sp6sma9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB0H4z4d9RwxTgR6r6HaAF_yUvPR9oRZJw"
@@ -20,7 +41,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631542884202-3fsk7f7bh9nv7e35sp138109sp6sma9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
